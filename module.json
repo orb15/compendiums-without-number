@@ -1,0 +1,76 @@
+{
+    "id": "compendiums-without-number",
+    "name": "compendiums-without-number",
+    "title": "Compendiums Without Number",
+    "description": "A collection of content for Kevin Crawford's Without Number game systems",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "orb15"
+        }
+    ],
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "packs": [
+      {
+          "name": "wwn-backgrounds",
+          "label": "WWN: Backgrounds",
+          "path": "./packs/wwn-backgrounds.db",
+          "type": "Item",
+          "system": "systemless"
+      },
+      {
+        "name": "wwn-classes",
+        "label": "WWN: Classes",
+        "path": "./packs/wwn-classes.db",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-elementalist-abilities",
+        "label": "WWN: Elementalist Abilities",
+        "path": "./packs/wwn-elementalist-abilities.db",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-equipment",
+        "label": "WWN: Equipment",
+        "path": "./packs/wwn-equipment.db",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-expert-warrior-abilities",
+        "label": "WWN: Expert and Warrior Abilities",
+        "path": "./packs/wwn-expert-warrior-abilities.db",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-foci",
+        "label": "WWN: Foci",
+        "path": "./packs/wwn-foci.db",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
+          "name": "wwn-skills",
+          "label": "WWN: Skills",
+          "path": "./packs/wwn-skills.db",
+          "type": "Item",
+          "system": "systemless"
+      },
+      {
+          "name": "wwn-weapons",
+          "label": "WWN: Weapons",
+          "path": "./packs/wwn-weapons.db",
+          "type": "Item",
+          "system": "systemless"
+      }
+    ]
+  }
