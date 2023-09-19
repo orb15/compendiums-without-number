@@ -6,7 +6,7 @@ The compendiums provided in this module target the Systemless game system (ref: 
 The Systemless system allows GM's and players to play any game system.
 You cannot make use of this content without also using the Systemless system.
 
-The contents in these compendiums are for Kevin Crawford's excellent "Without Number" games, including Stars Without Number (gritty far-future roleplaying), Worlds Without Number (fantasy roleplaying) and the upcoming Cities Without Number (cyberpunk roleplaying). 
+The contents in these compendiums are for Kevin Crawford's excellent "Without Number" games, including Stars Without Number (gritty far-future roleplaying), Worlds Without Number (fantasy roleplaying) and the newly-released Cities Without Number (cyberpunk roleplaying). 
 You can learn more about these products at Sine Nomine Publishing (ref: https://sine-nomine-publishing.myshopify.com).
 I strongly encourage you to check out these excellent rules systems.
 
@@ -31,7 +31,7 @@ The latest production version is listed at the top of the table.
 Older versions are listed below the top row.
 Note that Foundry Virtual Table Top (FVTT) often makes breaking changes between major versions (FVTT v9 -> v10 significantly changed the internal Data Model, for example) that necessitate some type of rework in this code.
 Given this, this code is not strictly backward compatible to older versions of FVTT.
-That is, a version of this system that has been tested to work on FVTT v9 will (possibly/probably) not work on FVTT v10.
+That is, a version of this system that has been tested to work on FVTT v9 will (very likely) not work on FVTT v10.
 In general, you should use the tagged version of this software compatible with the version of FVTT and the version of Systemless you are running.
 
 ## Major and Minor Versions of this Software
@@ -48,5 +48,6 @@ This Changelog will be periodically updated to reflect the latest version of FVT
 
 | Tagged Version | Foundry Compatibility | Systemless Compatibility | Notes |
 |----------------|-----------------------|--------------------------|-------|
-| v1.0.1         | FVTT v10 Build 291    |  v1.3.0                  |fix module version|
+| v2.0.0         | FVTT v11 Build 309    |  v2.0.0                  |upgrade to FVTT v11|
+| v1.0.1         | FVTT v10 Build 291    |  v1.5.2                  |fix module version|
 | v1.0.0         | FVTT v10 Build 291    |  v1.3.0                  |inital release|

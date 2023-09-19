@@ -3,72 +3,100 @@
     "name": "compendiums-without-number",
     "title": "Compendiums Without Number",
     "description": "A collection of content for Kevin Crawford's Without Number game systems",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "orb15"
         }
     ],
-    "minimumCoreVersion": "10",
-    "compatibleCoreVersion": "10",
+    "minimumCoreVersion": "11",
+    "compatibleCoreVersion": "11",
     "compatibility": {
-        "minimum": "10",
-        "verified": "10"
+        "minimum": "11",
+        "verified": "11"
     },
     "packs": [
       {
+        "name": "wwn-actors",
+        "label": "WWN: Actors",
+        "path": "./packs/wwn-actors",
+        "type": "Actor",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-armor",
+        "label": "WWN: Armor",
+        "path": "./packs/wwn-armor",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
           "name": "wwn-backgrounds",
           "label": "WWN: Backgrounds",
-          "path": "./packs/wwn-backgrounds.db",
+          "path": "./packs/wwn-backgrounds",
           "type": "Item",
           "system": "systemless"
       },
       {
         "name": "wwn-classes",
         "label": "WWN: Classes",
-        "path": "./packs/wwn-classes.db",
+        "path": "./packs/wwn-classes",
         "type": "Item",
         "system": "systemless"
       },
       {
         "name": "wwn-elementalist-abilities",
         "label": "WWN: Elementalist Abilities",
-        "path": "./packs/wwn-elementalist-abilities.db",
+        "path": "./packs/wwn-elementalist-abilities",
         "type": "Item",
         "system": "systemless"
       },
       {
         "name": "wwn-equipment",
         "label": "WWN: Equipment",
-        "path": "./packs/wwn-equipment.db",
+        "path": "./packs/wwn-equipment",
         "type": "Item",
         "system": "systemless"
       },
       {
         "name": "wwn-expert-warrior-abilities",
         "label": "WWN: Expert and Warrior Abilities",
-        "path": "./packs/wwn-expert-warrior-abilities.db",
+        "path": "./packs/wwn-expert-warrior-abilities",
         "type": "Item",
         "system": "systemless"
       },
       {
         "name": "wwn-foci",
         "label": "WWN: Foci",
-        "path": "./packs/wwn-foci.db",
+        "path": "./packs/wwn-foci",
         "type": "Item",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-journals",
+        "label": "WWN: Journals",
+        "path": "./packs/wwn-journals",
+        "type": "JournalEntry",
         "system": "systemless"
       },
       {
           "name": "wwn-skills",
           "label": "WWN: Skills",
-          "path": "./packs/wwn-skills.db",
+          "path": "./packs/wwn-skills",
           "type": "Item",
           "system": "systemless"
       },
       {
+        "name": "wwn-tables",
+        "label": "WWN: Rollable Tables",
+        "path": "./packs/wwn-tables",
+        "type": "RollTable",
+        "system": "systemless"
+      },
+      {
           "name": "wwn-weapons",
           "label": "WWN: Weapons",
-          "path": "./packs/wwn-weapons.db",
+          "path": "./packs/wwn-weapons",
           "type": "Item",
           "system": "systemless"
       }
