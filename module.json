@@ -3,19 +3,33 @@
     "name": "compendiums-without-number",
     "title": "Compendiums Without Number",
     "description": "A collection of content for Kevin Crawford's Without Number game systems",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "authors": [
         {
             "name": "orb15"
         }
     ],
     "minimumCoreVersion": "11",
-    "compatibleCoreVersion": "11",
+    "compatibleCoreVersion": "12",
     "compatibility": {
         "minimum": "11",
-        "verified": "11"
+        "verified": "12"
     },
     "packs": [
+	  {
+        "name": "all-macros",
+        "label": "All: Macros",
+        "path": "./packs/all-macros",
+        "type": "Macro",
+        "system": "systemless"
+      },
+	  {
+        "name": "all-misc-items",
+        "label": "All: Misc Items",
+        "path": "./packs/all-misc-items",
+        "type": "Item",
+        "system": "systemless"
+      },
       {
         "name": "wwn-actors",
         "label": "WWN: Actors",
@@ -59,9 +73,9 @@
         "system": "systemless"
       },
       {
-        "name": "wwn-expert-warrior-abilities",
-        "label": "WWN: Expert and Warrior Abilities",
-        "path": "./packs/wwn-expert-warrior-abilities",
+        "name": "wwn-expert-abilities",
+        "label": "WWN: Expert Abilities",
+        "path": "./packs/wwn-expert-abilities",
         "type": "Item",
         "system": "systemless"
       },
@@ -73,10 +87,24 @@
         "system": "systemless"
       },
       {
+        "name": "wwn-healer-abilities",
+        "label": "WWN: Healer Abilities",
+        "path": "./packs/wwn-healer-abilities",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
         "name": "wwn-journals",
         "label": "WWN: Journals",
         "path": "./packs/wwn-journals",
         "type": "JournalEntry",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-rollable-tables",
+        "label": "WWN: Rollable Tables",
+        "path": "./packs/wwn-rollable-tables",
+        "type": "RollTable",
         "system": "systemless"
       },
       {
@@ -87,10 +115,17 @@
           "system": "systemless"
       },
       {
-        "name": "wwn-tables",
-        "label": "WWN: Rollable Tables",
-        "path": "./packs/wwn-tables",
-        "type": "RollTable",
+        "name": "wwn-vowed-abilities",
+        "label": "WWN: Vowed Abilities",
+        "path": "./packs/wwn-vowed-abilities",
+        "type": "Item",
+        "system": "systemless"
+      },
+      {
+        "name": "wwn-warrior-abilities",
+        "label": "WWN: Warrior Abilities",
+        "path": "./packs/wwn-warrior-abilities",
+        "type": "Item",
         "system": "systemless"
       },
       {

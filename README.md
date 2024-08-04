@@ -48,6 +48,7 @@ This Changelog will be periodically updated to reflect the latest version of FVT
 
 | Tagged Version | Foundry Compatibility | Systemless Compatibility | Notes |
 |----------------|-----------------------|--------------------------|-------|
-| v2.0.0         | FVTT v11 Build 309    |  v2.0.0                  |upgrade to FVTT v11|
+| v3.0.0         | FVTT v12 Build 331    |  v3.0.0                  |upgrade to Foundry v12|
+| v2.0.0         | FVTT v11 Build 309    |  v2.0.0                  |upgrade to Foundry v11|
 | v1.0.1         | FVTT v10 Build 291    |  v1.5.2                  |fix module version|
 | v1.0.0         | FVTT v10 Build 291    |  v1.3.0                  |inital release|
